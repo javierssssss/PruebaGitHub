@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
               Intent intent = new Intent();
         }else{
             Toast.makeText(getBaseContext()," Error !",Toast.LENGTH_LONG).show();
+            //No muestra los toast
         }
     }
     private void InsertarClases(String cedula, String clave){
