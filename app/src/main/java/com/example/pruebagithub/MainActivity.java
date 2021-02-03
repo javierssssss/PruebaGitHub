@@ -2,6 +2,7 @@ package com.example.pruebagithub;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
          persona = data.getPersonaByID(cedula,clave);
         if (persona!=null){
               Toast.makeText(getBaseContext()," Sesión Iniciada ",Toast.LENGTH_LONG).show();
+              Intent intent = new Intent();
         }else{
             Toast.makeText(getBaseContext()," Error !",Toast.LENGTH_LONG).show();
         }

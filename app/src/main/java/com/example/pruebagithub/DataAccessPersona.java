@@ -111,7 +111,6 @@ private Context contexto;
         valores.put("CEDULA",persona.cedula);
         valores.put("CLAVE",persona.clave);
        /// valores.put("CODIGO",persona.clave);
-
         conteo= sql.update("PERSONAS",valores,"CODIGO="+codigo,null);
 
     }catch(Exception e){
