@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PruebaGitHub</string>
+    <string name="txtUsuario"></string>
+    <string name="txtClave"></string>
+    <string name="txtButton">Entrar</string>
+    <string name="txtButtonInsertar">Insertar</string>
 </resources>
